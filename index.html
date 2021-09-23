@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <script defer src="./bundle.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Maker</title>
+</head>
+<body>
+    <h1 id="title">Card Maker</h1>
+
+    <form>
+        <label for="greeting">Greeting</label>
+        <input type="text" name="greeting" id="greeting" placeholder="enter greeting here">
+        <label for="type">Event Type</label>
+        <select name="type" id="type">
+            <option value="birthday">Birthday</option>
+            <option value="wedding">Wedding</option>
+            <option value="christmas">Christmas</option>
+            <option value="anniversary">Anniversary</option>
+            <option value="new-job">New Job</option>
+        </select>
+        <label for="message">Message</label>
+        <input type="text" name="message" id="message">
+        <input type="submit" value="Create Card">
+    </form>
+
+    <section>
+        <h1 class="greeting"></h1>
+
+        <h1 class="message"></h1>
+    </section>
+</body>
+</html>
