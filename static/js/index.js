@@ -14,7 +14,7 @@ cardForm.addEventListener('submit', (e) => {
     document.querySelector('form').style.display = "none";
     document.querySelector(".greeting").textContent = greeting;
     document.querySelector(".message").textContent = message;
-    document.querySelector('section').style.display = 'block';
+    document.querySelector('section').style.display = 'flex';
     
     // requestCard("greeting":greeting, "message":message)
     // .catch(err => alert(err))
